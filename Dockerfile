@@ -13,4 +13,4 @@ COPY nginx/nginx.conf /etc/nginx/conf.d/
 
 COPY . /app/
 
-#CMD ["uvicorn", "main:shop_app", "--host", "0.0.0.0", "--port", "8000"]
+#CMD ["uvicorn", "main:shop_app", "--host", "0.0.0.0", "--port", "8000"]  # production setup
